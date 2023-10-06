@@ -1,118 +1,51 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
-
 export default function Home() {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/pages/index.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <div id="maincontent" class="max-w-[42em] my-15 mx-auto">
+      <div className="my_name">
+      <h1 class="block text-2xl my-3 mx-0 font-bold">Steve Nguyen</h1>
       </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="current_work"> 
+        <p class="block my-4 mx-0">USC grad. Technical PM @ServiceNow. Living in Boston. </p>
       </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className="past_work">
+        <h2 class="text-xl font-bold">Things I Built</h2>
+        <ul class="block list-disc m-4 mx-0 pl-10">
+          <li>An 8 person growth team at Omneky, a Gen AI startup in 2019</li>
+          <li>Helicone launch video which got 50k+ Twitter views, and increased paid user rate.</li>
+          <li>A way to detect and merge duplicate patient health records at Luma Health, a health tech startup that serves x amount of people.</li>
+          <li>A cohort of audio content creators for Elis, a music app founded by the former head of research at Spotify.</li>
+          <li>A startup career fair at USC which brought in 20+ startups to USC's campus.</li>
+          <li>USC's first Quant Finance club which now has alum at Jane Street, Citadel, IMC, etc.</li>
+          <li>Link to more of the work I've done.</li>
+        </ul>
+        
       </div>
-    </main>
-  )
+      <div className="big_questions">
+        <h2 class="text-xl font-bold">These are the biggest questions I'd be interested in solving.</h2>
+          <ul class="block list-disc m-4 mx-0 pl-10">
+          <li>As a young adult, how can we have it all: love, friends, family, and a career we're proud of?</li>
+          <li>How do you get kids to have healthy consumption patterns with technology + AI? </li>
+          <li>How can we create infinite memory?</li>
+          <li>AI is currently a field in search of solutions, how do we change that?</li>
+          <li>What does everyone who is building in AI right now need and how can someone build a business around that?</li>
+          <li>Can search engines finally be disrupted?</li>
+          <li>How do companies go from having a search engine like Google, and dominating other fields like cloud services, workspace management, phones, etc. ?</li>
+          <li>Do we need to train ML models anymore(except for specific use cases)?</li>
+          <li>How do I build a chrome extension where I can type in a question and it gets submitted to this list of questions?</li>
+          <li>How can I optimize new learning styles for a post classroom life?</li>
+          <li>Build a sentiment classifier of news article links using OpenAI and predict stock market.</li>
+        </ul>
+      </div>
+      <div className="companies">
+        <h2 class="text-xl font-bold">Companies I strongly believe in.</h2>
+        <ul class="block list-disc m-4 mx-0 pl-10">
+          <li><a href="https://imbue.com/">imbue - building the best agents</a></li>
+          <li><a href="https://jenni.ai/">jenni - Jasper but better</a></li>
+          <li><a href="https://www.cursor.so/">cursor.so - AI Code Editor</a></li>
+          <li>more linked in my Notes</li>
+        </ul>
+      </div>
+    </div>
+    
+  );
 }
