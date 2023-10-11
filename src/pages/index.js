@@ -17,6 +17,14 @@ handleVisitedState('projects-link');
 handleVisitedState("omneky-link");
 handleVisitedState("helicone-link");
 handleVisitedState('luma-link');
+handleVisitedState('quant-link');
+handleVisitedState('spark-link');
+handleVisitedState('imbue-link');
+handleVisitedState('jenni-link');
+handleVisitedState('cursor-link');
+handleVisitedState('elevenlabs-link');
+
+
 
 export default function Home() {
   return (
@@ -30,39 +38,47 @@ export default function Home() {
       <div className="past_work">
         <h2 className="text-xl font-bold">Previously</h2>
         <ul className="block list-disc m-4 mx-0 pl-10">
-          <li>Built early stage growth team + got early customers @ <a id="omneky-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://omneky.com" target="_blank">Omneky</a></li>
           <li>Created marketing materials(ie. launch video -- 50k+ views) @ <a id="helicone-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://helicone.ai" target="_blank">Helicone</a></li>
           <li>PM for product that detected duplicate patient records(75,000+ impacted) @ <a id="luma-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://lumahealth.io" target="_blank">Luma Health</a></li>
-          <li>A cohort of audio content creators for Elis, a music app founded by the former head of research at Spotify.</li>
-          <li>A startup career fair at USC which brought in 20+ startups to USC's campus.</li>
-          <li>USC's first Quant Finance club which now has alum at Jane Street, Citadel, IMC, etc.</li>
-          <li><a id="projects-link" href="/projects" className="text-blue-700 focus:text-purple-900 focus:outline-none underline">Link to more projects</a></li>
+          <li>Built early stage growth team(3x MRR) @ <a id="omneky-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://omneky.com" target="_blank">Omneky</a></li>
+          <li>Founded USC's first quant finance org & grew it to 40+ active members @ <a id="quant-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://quantsc.org" target="_blank">Quant SC</a></li>
+          <li>Supported USC Entrepreneurship(ie. 2 Startup Career Fairs for 20+ startups) @ <a id="spark-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://sparksc.org" target="_blank">Spark SC</a></li>
+          <li><a id="projects-link" href="/projects" className="text-blue-700 focus:text-purple-900 focus:outline-none underline">Link to all my projects</a></li>
         </ul>
         
       </div>
       <div className="big_questions">
-        <h2 className="text-xl font-bold">These are the biggest questions I'd be interested in solving.</h2>
+        <h2 className="text-xl font-bold">Big questions I'm looking to solve/hear answers to</h2>
           <ul className="block list-disc m-4 mx-0 pl-10">
-          <li>As a young adult, how can we have it all: love, friends, family, and a career we're proud of?</li>
-          <li>How do you get kids to have healthy consumption patterns with technology + AI? </li>
-          <li>How can we create infinite memory?</li>
-          <li>AI is currently a field in search of solutions, how do we change that?</li>
-          <li>What does everyone who is building in AI right now need and how can someone build a business around that?</li>
-          <li>Can search engines finally be disrupted?</li>
-          <li>How do companies go from having a search engine like Google, and dominating other fields like cloud services, workspace management, phones, etc. ?</li>
-          <li>Do we need to train ML models anymore(except for specific use cases)?</li>
-          <li>How do I build a chrome extension where I can type in a question and it gets submitted to this list of questions?</li>
-          <li>How can I optimize new learning styles for a post classroom life?</li>
-          <li>Build a sentiment classifier of news article links using OpenAI and predict stock market.</li>
+            <li>As a young adult, how can we have it all: love, friends, family, and a career we're proud of?</li>
+            <li>How do you democratize access to AI models/tools?</li>
+            <li>What will countries without immediate access to AI tools do when other countries accelerate ahead?</li>
+            <li>How do you get kids to have healthy consumption patterns with technology + AI? </li>
+            <li>How can we create infinite memory?</li>
+            <li>What does everyone who is building in AI right now need and how can someone build a business around that?</li>
+            <li>Can search engines finally be disrupted?</li>
+            <li>How do companies go from having a search engine like Google, and dominating other fields like cloud services, workspace management, phones, etc. ?</li>
+            <li>Do we need to train ML models besides LLMs?</li>
+            <li>How can we use technology to optimize learning styles for twenty-something year olds?</li>
+        </ul>
+      </div>
+      <div className="future_projects">
+        <h2 className="text-xl font-bold">Projects I want to build</h2>
+          <ul className="block list-disc m-4 mx-0 pl-10">
+            <li>A christmas family photos generative app.
+            </li>
+            <li>A chrome extension where I can type in an idea and it gets submitted to this list.</li>
+            <li>A sentiment classifier of news article links using OpenAI and predict stock market or certain stocks.</li>
         </ul>
       </div>
       <div className="companies">
         <h2 className="text-xl font-bold">Companies I strongly believe in.</h2>
         <ul className="block list-disc m-4 mx-0 pl-10">
-          <li><a href="https://imbue.com/" target="_blank">imbue - building the best agents</a></li>
-          <li><a href="https://jenni.ai/" target="_blank">jenni - Jasper but better</a></li>
-          <li><a href="https://www.cursor.so/" target="_blank">cursor.so - AI Code Editor</a></li>
-          <li>more linked in my Notes</li>
+          <li><a id="imbue-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://imbue.com/" target="_blank">imbue </a> - building the best agents</li>
+          <li><a id="jenni-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://jenni.ai/" target="_blank">jenni </a> - Jasper but better</li>
+          <li><a id="cursor-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://www.cursor.so/" target="_blank">cursor.so </a> - AI Code Editor</li>
+          <li><a id="elevenlabs-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://elevenlabs.io/" target="_blank">elevenlabs.io </a> - AI dubbing, evidence: Mr.Beast youtube in other languages</li>
+          
         </ul>
       </div>
     </div>
