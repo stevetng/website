@@ -18,6 +18,7 @@ handleVisitedState("omneky-link");
 handleVisitedState("helicone-link");
 handleVisitedState('luma-link');
 handleVisitedState('quant-link');
+handleVisitedState('scf-link');
 handleVisitedState('spark-link');
 handleVisitedState('imbue-link');
 handleVisitedState('jenni-link');
@@ -42,7 +43,7 @@ export default function Home() {
           <li>PM for product that detected duplicate patient records(75,000+ impacted) @ <a id="luma-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://lumahealth.io" target="_blank">Luma Health</a></li>
           <li>Built early stage growth team(3x MRR) @ <a id="omneky-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://omneky.com" target="_blank">Omneky</a></li>
           <li>Founded USC's first quant finance org & grew it to 40+ active members @ <a id="quant-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://quantsc.org" target="_blank">Quant SC</a></li>
-          <li>Supported USC Entrepreneurship(ie. 2 Startup Career Fairs for 20+ startups) @ <a id="spark-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://sparksc.org" target="_blank">Spark SC</a></li>
+          <li>Supported USC entrepreneurship(ie. <a id="scf-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://sparksc.org/our-blog/read-about-our-org-initiatives-and-members/what-is-startup-career-fair" target="_blank">startup career fairs</a>) as president @ <a id="spark-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://sparksc.org" target="_blank">Spark SC</a></li>
           <li><a id="projects-link" href="/projects" className="text-blue-700 focus:text-purple-900 focus:outline-none underline">Link to all my projects</a></li>
         </ul>
         

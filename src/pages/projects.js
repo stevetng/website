@@ -20,6 +20,10 @@ handleVisitedState('usc-entre-link');
 handleVisitedState('btc-link');
 handleVisitedState('gpt-code-link');
 handleVisitedState('gpt-site-link');
+handleVisitedState('number-code-link');
+handleVisitedState('carrot-code-link');
+handleVisitedState('zelda-link');
+
 
 
 export default function Projects() {
@@ -36,7 +40,13 @@ export default function Projects() {
                 </li>
                 <li><p style={{ display: 'inline' }}><span className="font-bold">GBTC + BTC Quant Case Study</span> -- (Lead by Andrew Fisher) For my master's level quant class, we examined the relationship between BTC and Grayscale's Bitcoin trust due to the discount we noticed of GBTC. We used a L/S strategy to determine if there was potential arbitrage opportunities here.</p> [<a id="btc-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://docs.google.com/document/d/1asTmgKw8J0mIl82fPoGlA0S3wTyWIBdcUi-RUitPcnw/edit?usp=sharing" target="_blank">Link</a>]
                 </li>
-                <li><p style={{ display: 'inline' }}><span className="font-bold">GPT Landing Page w/ React</span> </p> I followed a three hour long React tutorial from JavaScript Mastery Youtube Channel, learning how to structure a React app and create components.[<a id="gpt-code-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://github.com/stevetng/react_practice" target="_blank">Code</a>]  [<a id="gpt-site-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://react-practice-ed1m.vercel.app/" target="_blank">Site</a>]
+                <li><p style={{ display: 'inline' }}><span className="font-bold">GPT Landing Page w/ React</span> </p> -- I followed a three hour long React tutorial from JavaScript Mastery Youtube Channel, learning how to structure a React app and create components.[<a id="gpt-code-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://github.com/stevetng/react_practice" target="_blank">Code</a>]  [<a id="gpt-site-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://react-practice-ed1m.vercel.app/" target="_blank">Site</a>]
+                </li>
+                <li><p style={{ display: 'inline' }}><span className="font-bold">Carrot - Tab Manager Chrome Extension</span> </p> -- My first experience using OpenAI's API to organize all open tabs into categories and display/manage them in a chrome extension pop up. [<a id="carrot-code-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://github.com/stevetng/carrot" target="_blank">Code</a>]
+                </li>
+                <li><p style={{ display: 'inline' }}><span className="font-bold">Number Checker(tutorial by Samson Zhang)</span> </p> -- Followed a thirty minute youtube tutorial to create a neural network from scratch to identify(w/ 80%~ success rate) images of digits. [<a id="number-code-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://github.com/stevetng/numberChecker" target="_blank">Code</a>]
+                </li>
+                <li><p style={{ display: 'inline' }}><span className="font-bold">Legend of Zelda TOTK Marketing Plan</span> </p> -- (With Sage Wu) Created a 33 slide presentation on how Nintendo should market their recent Legend of Zelda game as part of my Gaming Marketing class. [<a id="zelda-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://docs.google.com/presentation/d/1QNhO2eLYK8mk9Rr66kL1JiUSu_EF7HsYX9KZCFLxmJA/edit?usp=sharing" target="_blank">Link</a>]
                 </li>
             </ul>
         </div>
