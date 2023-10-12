@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 function handleVisitedState(linkId) {
   if (typeof document !== 'undefined') {
     const linkElement = document.getElementById(linkId);
@@ -29,7 +31,13 @@ handleVisitedState('elevenlabs-link');
 
 export default function Home() {
   return (
-    <div id="maincontent" className="max-w-[42em] my-15 mx-auto">
+    <>
+      <Head>
+        <title>Steve Nguyen</title>
+        <meta property="og:title" content="Steve Nguyen" />
+        <meta property="og:image" content="/duck.jpg" />
+      </Head>
+      <div id="maincontent" className="max-w-[42em] my-15 mx-auto">
       <div className="my_name">
       <h1 className="block text-2xl my-3 mx-0 font-bold">Steve Nguyen</h1>
       </div>
@@ -83,6 +91,8 @@ export default function Home() {
         </ul>
       </div>
     </div>
+      </>
+    
     
   );
 }
