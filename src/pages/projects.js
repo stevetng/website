@@ -33,7 +33,6 @@ export default function Projects() {
             <Head>
             <title>Steve Nguyen</title>
             <meta property="og:title" content="Projects" />
-            <meta property="og:image" content="/duck.jpg" />
             </Head>
             <div id="projects_page">
                 <h1 className="block text-2xl my-3 mx-0 font-bold">Projects</h1>

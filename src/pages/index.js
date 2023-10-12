@@ -35,7 +35,6 @@ export default function Home() {
       <Head>
         <title>Steve Nguyen</title>
         <meta property="og:title" content="Steve Nguyen" />
-        <meta property="og:image" content="/duck.jpg" />
       </Head>
       <div id="maincontent" className="max-w-[42em] my-15 mx-auto">
       <div className="my_name">
