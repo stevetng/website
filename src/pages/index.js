@@ -77,15 +77,21 @@ export default function Home() {
             </li>
             <li>A chrome extension where I can type in an idea and it gets submitted to this list.</li>
             <li>A sentiment classifier of news article links using OpenAI and predict stock market or certain stocks.</li>
+            <li>A chrome extension that automatically closes tabs that you have opened for x amount of time. When you open a new tab, it'll be shown in a list where you can delete if you don't want to go back to it.</li>
+            <li>Whenever you buy something dumb you get a text that says you dumbass in different ways.</li>
+
         </ul>
       </div>
       <div className="companies">
         <h2 className="text-xl font-bold">Companies I strongly believe in.</h2>
         <ul className="block list-disc m-4 mx-0 pl-10">
-          <li><a id="imbue-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://imbue.com/" target="_blank">imbue </a> - building the best agents</li>
-          <li><a id="jenni-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://jenni.ai/" target="_blank">jenni </a> - Jasper but better</li>
-          <li><a id="cursor-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://www.cursor.so/" target="_blank">cursor.so </a> - AI Code Editor</li>
-          <li><a id="elevenlabs-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://elevenlabs.io/" target="_blank">elevenlabs.io </a> - AI dubbing, evidence: Mr.Beast youtube in other languages</li>
+          <li><a id="imbue-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://imbue.com/" target="_blank">imbue.com</a> - building the best agents</li>
+          <li><a id="jenni-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://jenni.ai/" target="_blank">jenni.ai</a> - Jasper but better</li>
+          <li><a id="cursor-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://www.cursor.so/" target="_blank">cursor.so</a> - AI Code Editor</li>
+          <li><a id="elevenlabs-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://elevenlabs.io/" target="_blank">elevenlabs.io</a> - AI dubbing, evidence: Mr.Beast youtube in other languages</li>
+          <li><a id="moment-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://www.withmoment.com/" target="_blank">withmoment.com</a> - Fixed Income API for investment firms, Rohan Sanjay works there</li>
+          <li><a id="moment-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://www.perplexity.ai/" target="_blank">perplexity ai</a> - ChatGPT but with sources, but better</li>
+          
         </ul>
       </div>
       <div id="hidden" className="text-white">
