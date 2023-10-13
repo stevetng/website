@@ -67,7 +67,7 @@ export default function Home() {
             <li>Can search engines finally be disrupted?</li>
             <li>How do companies go from having a search engine like Google, and dominating other fields like cloud services, workspace management, phones, etc. ?</li>
             <li>Do we need to train ML models besides LLMs?</li>
-            <li>How can we use technology to optimize learning styles for twenty-something year olds?</li>
+            <li>How can we use technology to optimize learning styles for after college?</li>
         </ul>
       </div>
       <div className="future_projects">
@@ -79,7 +79,7 @@ export default function Home() {
             <li>A sentiment classifier of news article links using OpenAI and predict stock market or certain stocks.</li>
             <li>A chrome extension that automatically closes tabs that you have opened for x amount of time. When you open a new tab, it'll be shown in a list where you can delete if you don't want to go back to it.</li>
             <li>Whenever you buy something dumb you get a text that says you dumbass in different ways.</li>
-
+            <li>An analysis of the fortune 500, understanding what are the common trends of recent entries in the past 5-10 years to see what is capturing value recently.</li>
         </ul>
       </div>
       <div className="companies">
