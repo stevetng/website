@@ -50,11 +50,11 @@ export default function Home() {
       <div className="past_work">
         <h2 className="text-xl font-bold">Previously</h2>
         <ul className="block list-disc m-4 mx-0 pl-10">
-          <li>Created marketing materials(ie. launch video -- 50k+ views) @ <a id="helicone-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://helicone.ai" target="_blank">Helicone</a></li>
-          <li>PM for product that detected duplicate patient records(75,000+ impacted) @ <a id="luma-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://lumahealth.io" target="_blank">Luma Health</a></li>
-          <li>Built early stage growth team(3x MRR) @ <a id="omneky-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://omneky.com" target="_blank">Omneky</a></li>
+          <li>Created marketing materials (ie. launch video -- 50k+ views) @ <a id="helicone-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://helicone.ai" target="_blank">Helicone</a></li>
+          <li>PM for product that detected duplicate patient records (75,000+ impacted) @ <a id="luma-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://lumahealth.io" target="_blank">Luma Health</a></li>
+          <li>Built early stage growth team (3x MRR) @ <a id="omneky-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://omneky.com" target="_blank">Omneky</a></li>
           <li>Founded USC's first quant finance org & grew it to 40+ active members @ <a id="quant-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://quantsc.org" target="_blank">Quant SC</a></li>
-          <li>Supported USC entrepreneurship(ie. <a id="scf-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://sparksc.org/our-blog/read-about-our-org-initiatives-and-members/what-is-startup-career-fair" target="_blank">startup career fairs</a>) as president @ <a id="spark-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://sparksc.org" target="_blank">Spark SC</a></li>
+          <li>Supported USC entrepreneurship (ie. <a id="scf-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://sparksc.org/our-blog/read-about-our-org-initiatives-and-members/what-is-startup-career-fair" target="_blank">startup career fairs</a>) as president @ <a id="spark-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://sparksc.org" target="_blank">Spark SC</a></li>
           <li><a id="projects-link" href="/projects" className="text-blue-700 focus:text-purple-900 focus:outline-none underline">Link to all my projects</a></li>
         </ul>
         
