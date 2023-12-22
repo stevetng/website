@@ -45,7 +45,7 @@ export default function Home() {
       <h1 className="block text-2xl my-3 mx-0 font-bold">Steve Nguyen</h1>
       </div>
       <div className="current_work"> 
-        <p className="block my-4 mx-0">USC grad. Technical PM @ServiceNow. Living in Boston. </p>
+        <p className="block my-4 mx-0">Technical PgM @ServiceNow's AI Search Team. Living in Boston. Learning product design. </p>
       </div>
       <div className="past_work">
         <h2 className="text-xl font-bold">Previously</h2>
