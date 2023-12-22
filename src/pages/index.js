@@ -99,7 +99,7 @@ export default function Home() {
         </ul>
       </div>
       <div id="contact info"> 
-        <p className="block  mx-0">Email: <a id="email-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="mailto:stevetn123@gmail.com" target="_blank">stevetn123@gmail.com</a>    
+        <p className="block  mx-0">Email(let's grab coffee!): <a id="email-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="mailto:stevetn123@gmail.com" target="_blank">stevetn123@gmail.com</a>    
         </p> 
         <p>Twitter: <a id="twitter-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://twitter.com/WoahIsThatSteve" target="_blank">@woahisthatsteve</a> </p>
       </div>
