@@ -16,6 +16,7 @@ function handleVisitedState(linkId) {
     }
   }
 
+handleVisitedState('crawler-link');
 handleVisitedState('twitter-link');
 handleVisitedState('arc-link');
 handleVisitedState('higbie-link');
@@ -30,7 +31,7 @@ handleVisitedState('zelda-link');
 
 
 
-export default function Projects() {
+export default function Projects() {  
     return (
         <>
             <Head>
@@ -41,8 +42,10 @@ export default function Projects() {
                 <h1 className="block text-2xl my-3 mx-0 font-bold">Projects</h1>
                 <p className="block my-4 mx-0">My side projects include everything from live events, to random coding, to quant things, to research projects to writing. Click <a id="home-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="/">here</a> to go back home.</p>
                 <ul className="block list-disc m-4 mx-0 pl-10">
-                  <li><p style={{ display: 'inline' }}><span className="font-bold">iMessage Data Analysis</span> -- Used SQL + ChatGPT to answer questions like who are the top 10 people I text? </p>[<a id="twitter-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://twitter.com/WoahIsThatSteve/status/1742696109875900787" target="_blank">Link</a>]
-                      </li>
+                    <li><p style={{ display: 'inline' }}><span className="font-bold">Web Crawling Visualization</span> -- A passion project inspired by how Google uses web crawlers to index trillions of URLs. I used a bunch of python libraries to build a website crawler that takes in a URL and creates a graph of URLs mentioned on the site.  </p>[<a id="crawler-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://github.com/stevetng/web-crawler" target="_blank">Link</a>]
+                          </li>
+                    <li><p style={{ display: 'inline' }}><span className="font-bold">iMessage Data Analysis</span> -- Used SQL + ChatGPT to answer questions like who are the top 10 people I text? </p>[<a id="twitter-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://twitter.com/WoahIsThatSteve/status/1742696109875900787" target="_blank">Link</a>]
+                        </li>
                     <li><p style={{ display: 'inline' }}><span className="font-bold">Arc Browser Wrapped</span> --(With Jess Wang and Karla Leung) Experimented with what the design would look like for a browsing wrapped for users of the web browser Arc.(14k views and reply from the CEO!) </p>[<a id="arc-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://x.com/WoahIsThatSteve/status/1730043860351357429?s=20" target="_blank">Link</a>]
                     </li>
                     <li><p style={{ display: 'inline' }}><span className="font-bold">A Walk to Class</span> -- A Video I worked on with my friend from USC, William Higbie exploring how we can capture the serendipity of a walk to class. </p>[<a id="higbie-link" className="text-blue-700 focus:text-purple-900 focus:outline-none underline" href="https://drive.google.com/file/d/1iFMrFEvFb7Tg7wziUAUhEV7VFncTpdMS/view?usp=sharing" target="_blank">Link</a>]
