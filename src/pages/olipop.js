@@ -1,4 +1,4 @@
-export default function Ello() {  
+export default function Olipop() {  
     return (
         <>
         <h1>ello, thanks for supporting olipop and for the affiliate money</h1>
