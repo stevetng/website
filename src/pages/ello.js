@@ -1,4 +1,4 @@
-export default function Projects() {  
+export default function Ello() {  
     return (
         <>
         <h1>ello, thanks for supporting olipop</h1>
